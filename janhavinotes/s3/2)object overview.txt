@@ -1,0 +1,10 @@
+
+AMAZON S3 OVERvIEW OBJECTS
+
+> Objects have a key
+> The key is the full path:
+    . s3://my-buckets/myfile.txt
+> The key is composed of prefix + object name
+> There's no concept of directories in the buckets
+> Keys with very long name that contains slashes
+

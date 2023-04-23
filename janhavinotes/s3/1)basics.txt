@@ -1,0 +1,35 @@
+
+AMAZON S3
+
+>> Amazon s3 is one of the main building blocks of AWS
+
+What is Amazon s3 used for?
+
+>> Many websites use amazon s3 as a backbone
+>> Many AWS services uses amazon s3 as an integration as well
+
+S3 use cases:-
+
+1. Backup and store
+2. Disaster recovery
+3. Archieve
+4. Hybrid cloud storage
+5. App hosting
+6. Media hosting
+7. Software delivery
+8. static websites
+
+* Main feature of s3 is to store store objects on it, in amazon s3 at the core of it
+is that you have files also called objects and they are stored in directories also
+called buckets so, get used to the naming of the objects and buckets these buckets 
+must have a globally unique name. Buckets are has to be define at the region level
+so s3 is like a global service but we create buckets in a region
+
+Naming convension:-
+> No uppercase
+> No underscore
+> 3-63 char long
+> Not an IP
+> Must start with the lowercase letter
+
+

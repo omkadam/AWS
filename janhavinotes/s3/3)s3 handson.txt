@@ -1,0 +1,16 @@
+
+S3 HANDS-ON
+
+aws console pe jao aur s3 search karo aab uspe click karo
+aab right side me uppar create bucket pe click karo aab waha pe bucket name
+vagre daalo region select kaar lo aab ekdum niche aao aur create bucket pe click kaar do
+aab bucket create hoo gaya hai aab waha pe bucket name likh ke milega blue me 
+uspe click karo aab kuch file upload kaarna start karo aab upload pe click karo
+aab add files pe click karo aab file aapke local sysytem se select karo
+aab niche scroll karo aur upload pe click kaar do.
+
+aab uss file ko open kaise karenge? aur usme ka content kaise dekhenge?
+
+>> aab jaab woh file pe click karoge toh aapko object url dikhega bottom right me
+agar aap uspe click kaarte hooo toh aapko woh file ka content nhi dikhega
+kyu ki woh object public nhi hai.

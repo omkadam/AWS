@@ -1,0 +1,33 @@
+
+S3 SECURITY
+
+How we can secure our s3 buckets?
+
+There are diffrent components of s3 securities
+
+1. User based
+
+> So we have defined IAM users and we're going to attach IAM policies to them
+to allow them to get access ofour s3 bucket
+
+2. Resource based
+
+> In this case we can define something new called bucket policy. which is going to 
+be a rule attached directly into your s3 bucket to allow or deny requests comming from
+other accounts or public request and so-on
+. object access control list (OACL)
+. bucket access control list (BACl)
+
+When can an IAM permission access an s3 objects?
+
+> it can access it if either the IAM permission attached to IAM principle
+so the user or the group of the role can allow access the s3 bucket or if the s3
+bucket policy allows it.
+
+S3 BUCKET POLICIES
+
+> JSON based policies
+> use s3 bucket policy to:
+    . Grant public access to the bucket
+    . Force objects to be encrypted at upload
+    . Grant access to another accounts
